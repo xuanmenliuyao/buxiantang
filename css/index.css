@@ -1334,8 +1334,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #abe1e1;
-  --hr-before-color: #89d5d4;
+  --hr-border: #c0b6cf;
+  --hr-before-color: #a699bb;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-result-title: #4c4948;
@@ -1348,7 +1348,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #ff7242;
+  --btn-hover-color: #f03752;
   --btn-color: #fff;
   --btn-bg: #57c3c2;
   --text-bg-hover: rgba(87,195,194,0.7);
@@ -1362,9 +1362,9 @@ canvas:not(#ribbon-canvas),
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
-  --pseudo-hover: #ff7242;
+  --pseudo-hover: #f03752;
   --headline-presudo: #a0a0a0;
-  --scrollbar-color: #57c3c2;
+  --scrollbar-color: #525288;
 }
 body {
   position: relative;
@@ -1462,7 +1462,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #00c4b6;
+  background: #fcd217;
   color: #f7f7f7;
 }
 button {
@@ -1956,7 +1956,7 @@ figure.highlight pre .javascript .function {
   border-color: var(--pseudo-hover);
 }
 .article-sort-item-time {
-  color: #858585;
+  color: #6495ed;
   font-size: 95%;
 }
 .article-sort-item-time time {
@@ -2015,7 +2015,7 @@ figure.highlight pre .javascript .function {
 }
 .category-lists .category-list .category-list-count {
   margin-left: 8px;
-  color: #858585;
+  color: #6495ed;
 }
 .category-lists .category-list .category-list-count:before {
   content: '(';
@@ -2358,7 +2358,7 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   margin: 6px 0;
-  color: #858585;
+  color: #6495ed;
   font-size: 90%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -2383,7 +2383,7 @@ figure.highlight pre .javascript .function {
   margin: 0 4px;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #858585;
+  color: #6495ed;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #57c3c2;
@@ -2575,7 +2575,7 @@ h1.page-title + .tag-cloud-list {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
   display: block;
-  color: #858585;
+  color: #6495ed;
   font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
@@ -2784,7 +2784,7 @@ h1.page-title + .tag-cloud-list {
   color: #57c3c2;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #00c4b6;
+  background: #525288;
   color: #fff;
 }
 #aside-content :only-child > .card-widget {
@@ -3151,6 +3151,13 @@ h1.page-title + .tag-cloud-list {
   background-position: bottom;
   background-size: cover;
 }
+#footer:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  content: '';
+}
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
@@ -3193,7 +3200,7 @@ h1.page-title + .tag-cloud-list {
   content: '';
 }
 #page-header.full_page {
-  height: 100vh;
+  height: 25rem;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
@@ -3759,7 +3766,7 @@ h1.page-title + .tag-cloud-list {
   overflow-wrap: break-word;
 }
 #article-container a {
-  color: #57c3c2;
+  color: #cb3a56;
 }
 #article-container a:hover {
   text-decoration: underline;
@@ -3830,7 +3837,7 @@ h1.page-title + .tag-cloud-list {
   position: absolute;
   top: calc(50% - 7px);
   color: #c02c38;
-  content: '\f863';
+  content: '\f0f3';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -4501,7 +4508,7 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap {
   --waline-font-size: 1.1em;
   --waline-theme-color: #57c3c2;
-  --waline-active-color: #ff7242;
+  --waline-active-color: #f03752;
 }
 #waline-wrap .vuser {
   -webkit-transition: all 0.5s;
