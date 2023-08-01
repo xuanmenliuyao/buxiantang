@@ -35,14 +35,36 @@ body {
   text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
 }
 
+
 h1 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 42px;
+  font-size: 2.625rem; /* 相对单位（rem）的字体大小 */
   margin: 0;
-  line-height: 47px;
-  letter-spacing: 2px;
+  line-height: 1.1176; /* 计算方式：line-height = 47px / 42px = 1.1176 */
+  letter-spacing: 0.0476em; /* 计算方式：letter-spacing = 2px / 42px = 0.0476em */
 }
+
+/* 添加媒体查询以适应移动设备，根据需要进行调整 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* 添加更小的媒体查询以进一步适应小屏幕设备 */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+  }
+}
+
+
+
 
 .title {
   transform: translateX(-50%) rotate(-10deg);
