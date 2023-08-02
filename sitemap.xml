@@ -128,14 +128,14 @@
 
   
   <url>
-    <loc>https://buxiantang.top/tags/Java/</loc>
+    <loc>https://buxiantang.top/tags/IDEA/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://buxiantang.top/tags/Hexo/</loc>
+    <loc>https://buxiantang.top/tags/Java/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -149,14 +149,7 @@
   </url>
   
   <url>
-    <loc>https://buxiantang.top/tags/IDEA/</loc>
-    <lastmod>2023-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://buxiantang.top/tags/%E5%90%88%E5%A9%9A/</loc>
+    <loc>https://buxiantang.top/tags/Hexo/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -169,7 +162,21 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://buxiantang.top/tags/%E5%90%88%E5%A9%9A/</loc>
+    <lastmod>2023-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://buxiantang.top/categories/Java/</loc>
+    <lastmod>2023-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://buxiantang.top/categories/java%E5%AD%A6%E4%B9%A0/</loc>
@@ -186,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://buxiantang.top/categories/Java/</loc>
+    <loc>https://buxiantang.top/categories/%E7%8E%84%E5%AD%A6/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -194,13 +201,6 @@
   
   <url>
     <loc>https://buxiantang.top/categories/%E6%98%93%E5%AD%A6/</loc>
-    <lastmod>2023-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://buxiantang.top/categories/%E7%8E%84%E5%AD%A6/</loc>
     <lastmod>2023-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
