@@ -46,20 +46,20 @@ h1 {
 }
 
 /* 添加媒体查询以适应移动设备，根据需要进行调整 */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   h1 {
-    font-size: 2rem;
-    line-height: 1.15;
-    letter-spacing: 0.05em;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
   }
 }
 
 /* 添加更小的媒体查询以进一步适应小屏幕设备 */
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1.2;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.16em;
   }
 }
 
