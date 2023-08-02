@@ -3509,6 +3509,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page h1.page-title {
   margin: 8px 0 20px;
+  text-align: center;
 }
 #post > #post-info {
   margin-bottom: 30px;
