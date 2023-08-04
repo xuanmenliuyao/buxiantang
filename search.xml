@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Java方法-提取字符串指定索引范围的字符</title>
+      <link href="/posts/23450/"/>
+      <url>/posts/23450/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">public static int substringToInt(String str, int startIndex, int endIndex) &#123;</span><br><span class="line">    if (startIndex &gt;= 0 &amp;&amp; endIndex &lt; str.length() &amp;&amp; startIndex &lt;= endIndex) &#123;</span><br><span class="line">        String subStr = str.substring(startIndex, endIndex + 1);</span><br><span class="line">        return Integer.parseInt(subStr);</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        throw new IndexOutOfBoundsException(&quot;Invalid index range&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo博客中在页面中引入自定义html页面</title>
       <link href="/posts/1107/"/>
       <url>/posts/1107/</url>
@@ -95,7 +114,7 @@
       
         <tags>
             
-            <tag> -IDEA </tag>
+            <tag> IDEA </tag>
             
         </tags>
       
