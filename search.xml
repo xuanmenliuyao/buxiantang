@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>My first Java project</title>
+      <link href="/posts/47678/"/>
+      <url>/posts/47678/</url>
+      
+        <content type="html"><![CDATA[<p>此前学完了Java基础语法，但感觉还是什么也不会，还是必须提高动手能力。我是跟着尚硅谷的课程学习，里面有同步的授课项目，所以在深入理解<strong>拼电商客户管理系统</strong>项目的基础上，结合了<a href="https://6tail.cn/calendar/api.html">lunnr-日历工具库</a>，开发了一个八字排盘及客户管理系统，作为个人练习项目。</p><p><strong>感谢尚硅谷，感谢6tail</strong></p><h2 id="目前功能："><a href="#目前功能：" class="headerlink" title="目前功能："></a>目前功能：</h2><ul><li>八字排盘</li><li>八字记录保存&#x2F;修改&#x2F;删除</li></ul><h2 id="未来展望"><a href="#未来展望" class="headerlink" title="未来展望"></a>未来展望</h2><p>按照我自己的八字体系，开发完整的自动批八字（实现这个功能，不知道猴年马月了，哈哈哈！）</p><h2 id="演示视频见下"><a href="#演示视频见下" class="headerlink" title="演示视频见下"></a>演示视频见下</h2><p><a href="https://www.bilibili.com/video/BV1Qr4y1o723/?share_source=copy_web&vd_source=7a4ae35d6a543b92ee474997f072a228">八字排盘及客户记录管理系统V1.0</a></p><p><strong><a href="https://github.com/xuanmenliuyao/BaZiShowTools">Github传送门</a></strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>怎么解决在idea中导入的jar包file is read-only</title>
       <link href="/posts/41044/"/>
       <url>/posts/41044/</url>
